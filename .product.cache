@@ -1,0 +1,47 @@
+---
+projects:
+  .:
+    version: 0.4.192
+  ../catpaw-core:
+    version: 0.4.192
+  ../catpaw-libsdl:
+    version: 0.4.186
+  ../catpaw-web:
+    version: 0.4.192
+  ../catpaw-cli:
+    version: 0.4.162
+  ../catpaw-examples:
+    version: 0.4.192
+  ../catpaw-mysql:
+    version: 0.4.192
+  ../catpaw-mysql-dbms:
+    version: 0.4.104
+  ../catpaw-optional:
+    version: 0.4.130
+  ../catpaw-queue:
+    version: 0.4.192
+  ../catpaw-raspberrypi:
+    version: 0.4.192
+  ../catpaw-store:
+    version: 0.4.192
+  ../catpaw-cui:
+    version: 0.4.162
+  ../catpaw-spa:
+    version: 0.4.104
+  ../catpaw-starter:
+    version: 0.4.192
+  ../catpaw-web-starter:
+    version: 0.4.192
+  ../catpaw-svelte-starter:
+    version: 0.4.104
+  ../catpaw-markdown-starter:
+    version: 0.4.192
+  ../catpaw-schedule:
+    version: 0.4.192
+  ../catpaw-state:
+    version: 0.4.158
+  ../catpaw-dialog:
+    version: 0.4.192
+  ../catpaw-text:
+    version: 0.4.192
+...

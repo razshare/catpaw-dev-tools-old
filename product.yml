@@ -1,0 +1,58 @@
+master: .
+
+exports:
+  - "bin"
+  - ".vscode"
+  - ".github"
+  - ".php-cs-fixer.php"
+  - "psalm.xml"
+  - "build.yml"
+  - "LICENSE"
+  - ".gitignore"
+  - "CODE_OF_CONDUCT.md"
+web-server:
+  interfaces: 
+    - 127.0.0.1:8080
+projects:
+  .:
+    library: catpaw/dev-tools
+    version: 0.4.192
+  ../catpaw-core:
+    library: catpaw/core
+    version: 0.4.192
+  ../catpaw-schedule:
+    library: catpaw/schedule
+    version: 0.4.192
+  ../catpaw-web:
+    library: catpaw/web
+    version: 0.4.192
+  ../catpaw-dialog:
+    library: catpaw/dialog
+    version: 0.4.192
+  ../catpaw-examples:
+    library: catpaw/examples
+    version: 0.4.192
+  ../catpaw-mysql:
+    library: catpaw/mysql
+    version: 0.4.192
+  ../catpaw-queue:
+    library: catpaw/queue
+    version: 0.4.192
+  ../catpaw-raspberrypi:
+    library: catpaw/raspberrypi
+    version: 0.4.192
+  ../catpaw-store:
+    library: catpaw/store
+    version: 0.4.193
+  ../catpaw-text:
+    library: catpaw/text
+    version: 0.4.192
+  ../catpaw-starter:
+    library: catpaw/starter
+    version: 0.4.192
+  ../catpaw-web-starter:
+    library: catpaw/web-starter
+    version: 0.4.192
+  ../catpaw-markdown-starter:
+    library: catpaw/markdown-starter
+    version: 0.4.192
